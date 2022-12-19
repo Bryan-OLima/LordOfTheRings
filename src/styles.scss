@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/theming';
+@include mat-core();
+
+$custom-app-primary: mat-palette($mat-brown, 900);
+$custom-app-secundary: mat-palette($mat-brown, 600);
+$custom-app-warn: mat-palette($mat-red, 900);
+
+$custom-theme: mat-dark-theme($custom-app-primary, $custom-app-secundary, $custom-app-warn);
+
+@include angular-material-theme($custom-theme);
+
+@font-face {
+    font-family: Ringbearer;
+    src: url('assets/fonts/RingbearerMedium.woff2') format("truetype");
+}
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Ringbearer;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #251E18;
+    color: #BA9773;
+}

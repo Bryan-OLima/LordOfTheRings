@@ -1,0 +1,22 @@
+app-table{
+    // width: 500px !important;
+    // margin: auto;
+    // height: auto;
+}
+
+mat-label {
+    font-family: Ringbearer; 
+}
+
+// mat-form-field, app-table {
+//  width: 27vw;
+// }
+main {
+    // width: 100vw !important;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto;
+}

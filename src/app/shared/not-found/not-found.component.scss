@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+section {
+    background-image: url('../../../assets/img/backgrounds/404.png') !important;
+    background-attachment: scroll;
+    height: 70vh;
+    width: 70vw;
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Ringbearer';
+    src: local('Ringbearer Medium'), local('RingbearerMedium'),
+        url('RingbearerMedium.woff2') format('woff2'),
+        url('RingbearerMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

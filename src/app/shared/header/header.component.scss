@@ -1,0 +1,27 @@
+mat-toolbar {
+    font-family: Ringbearer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6B452B !important;
+}
+span {
+    color: #BA9773 !important;
+    outline: none;
+}
+
+.menu {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: #BA9773 !important;
+    outline: none;
+}
